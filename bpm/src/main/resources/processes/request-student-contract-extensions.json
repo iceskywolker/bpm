@@ -1,0 +1,46 @@
+{
+    "Process_l2exdsKWx": {
+        "constants": {},
+        "mappings": {},
+        "properties": {
+            "81c8122e-ddc7-4dbc-8ea9-ca3c9781ef89": {
+                "id": "81c8122e-ddc7-4dbc-8ea9-ca3c9781ef89",
+                "name": "affiliation_verified",
+                "type": "boolean",
+                "required": false,
+                "value": false
+            },
+            "25e99083-de76-4412-aca5-0b08ad4a977b": {
+                "id": "25e99083-de76-4412-aca5-0b08ad4a977b",
+                "name": "decline_contract",
+                "type": "boolean",
+                "required": false,
+                "value": false
+            },
+            "deb359ce-ea10-478e-8989-598cd9abf578": {
+                "id": "deb359ce-ea10-478e-8989-598cd9abf578",
+                "name": "assignee",
+                "type": "string",
+                "value": "",
+                "required": true
+            }
+        },
+        "assignments": {
+            "Task_1w1e9d3": {
+                "type": "expression",
+                "assignment": "assignee",
+                "id": "Task_1w1e9d3"
+            },
+            "Task_0qr8lbk": {
+                "type": "expression",
+                "assignment": "assignee",
+                "id": "Task_0qr8lbk"
+            },
+            "Task_00n34jz": {
+                "type": "expression",
+                "assignment": "assignee",
+                "id": "Task_00n34jz"
+            }
+        }
+    }
+}
