@@ -35,7 +35,8 @@
                "git": {
                   "uri": "https://github.com/iceskywolker/bpm.git",
                   "ref": "master"
-               }
+               },
+               "contextDir": "s2i"
             },
             "strategy": {
                "type": "Docker",
