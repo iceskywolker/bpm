@@ -1,0 +1,26 @@
+{
+   "kind": "ImageStream",
+   "apiVersion": "v1",
+   "metadata": {
+      "name": "s2i-java"
+   },
+   "spec": {
+      "tags": [
+         {
+            "name": "latest",
+            "annotations": {
+               "description": "Java OpenJDK S2I image",
+               "iconClass": "icon-jboss",
+               "tags": "builder,java,maven,gradle,springboot,vertx,widlfly-swarm,dropwizard,microservices,fatjar",
+               "supports": "java:8,maven:3,gradle:2.6",
+               "sampleRepo": "https://github.com/jorgemoralespou/springboot-sample-app.git",
+               "version": "latest"
+            },
+            "from": {
+               "kind": "DockerImage",
+               "name": "docker.io/jorgemoralespou/s2i-java:latest"
+            }
+         }
+      ]
+   }
+}
